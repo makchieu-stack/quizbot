@@ -1,0 +1,18 @@
+# секреты и личные данные — никогда не публикуем
+.env
+state.json
+state_old*.json
+bot.log
+# то, что бот скачивает и накапливает сам
+questions.json
+fetch_state.json
+actors_photos.json
+photos_cache.json
+images/actors/
+# служебное
+.venv/
+__pycache__/
+*.pyc
+*.zip
+*.tmp
+.DS_Store
